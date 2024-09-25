@@ -1,0 +1,461 @@
+@charset "utf-8";
+
+body {
+  font-family: 'Pretendard', sans-serif, 'SB Aggro', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+
+:root {
+  --main-color: #0066ff;
+  --main-font: 'Pretendard', sans-serif;
+  --sub-font: 'SB Aggro', sans-serif;
+}
+
+/* wrap */
+#wrap {
+  max-width: 1920px;
+}
+
+.inner {
+  margin: auto 17.29%;
+}
+
+
+/* main_visual */
+.main_visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0;
+  background: url(../img/mv_bg.png) no-repeat center;
+  color: #fff;
+}
+
+.main_visual .txt_box {
+  margin-right: 16vw;
+}
+
+.main_visual h1 {
+  margin: 0 0 120px;
+}
+
+.main_visual h2 {
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+.main_visual p {
+  margin: 36px 0 72px;
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.btn_box {
+  display: flex;
+  gap: 30px;
+}
+
+.main_visual .apple {
+  display: block;
+  width: 170px;
+  height: 50px;
+  background: url(../img/apple.png) no-repeat 24px center;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  transition: all 0.5s;
+}
+
+.main_visual .apple a {
+  padding-left: 40px;
+  font-size: 1.6rem;
+  font-family: var(--main-font);
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.main_visual .apple:hover {
+  background: #fff url(../img/apple_black.png) no-repeat 24px center;
+  border: 1px solid #fff;
+}
+
+.main_visual .apple:hover a {
+  color: #111;
+}
+
+
+.main_visual .google {
+  display: block;
+  width: 170px;
+  height: 50px;
+  background: url(../img/google.png) no-repeat 24px center / 15%;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  transition: all 0.5s;
+}
+
+.main_visual .google a {
+  padding-left: 40px;
+  font-size: 1.6rem;
+  font-family: var(--main-font);
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.main_visual .google:hover {
+  background: #fff url(../img/google_black.png) no-repeat 24px center / 15%;
+  border: 1px solid #fff;
+}
+
+.main_visual .google:hover a {
+  color: #111;
+}
+
+.main_visual .img_box img {
+  width: 100%;
+}
+
+
+
+
+/* one */
+.one {
+  position: relative;
+  padding: 120px 0 0;
+  height: 900px;
+  background: #F1F1F7;
+  text-align: center;
+}
+
+.one h2 {
+  font-size: 6rem;
+  font-family: var(--sub-font);
+  font-weight: 800;
+  color: var(--main-color);
+}
+
+.one h3 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.one .img_box {
+  position: relative;
+  bottom: -70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.one .img_box img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+/* bookmark */
+.bookmark {
+  position: relative;
+  z-index: 20;
+  padding-top: 120px;
+  height: 900px;
+  background: #fff;
+}
+
+.bookmark .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookmark h2 {
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+.bookmark h4 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.bookmark p {
+  margin-top: 10px;
+  font-size: 2rem;
+  color: #666;
+}
+
+.bookmark .img_box {
+  transform: translateX(5%);
+}
+
+.bookmark .img_box img {
+  max-width: 100%;
+}
+
+.bookmark .img_box img:nth-child(2) {
+  position: relative;
+  bottom: -300px;
+}
+
+
+
+/* flight */
+.flight {
+  position: relative;
+  z-index: 30;
+  padding-top: 120px;
+  height: 830px;
+  background: #fafafa;
+  text-align: right;
+}
+
+.flight .inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flight .img_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.flight .img_box img {
+  width: 100%;
+}
+
+.flight .flight_col:nth-child(2) {
+  margin-top: 200px;
+}
+
+.flight .txt_box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 17.29%;
+}
+
+.flight h2 {
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+.flight h4 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.flight p {
+  margin-top: 10px;
+  font-size: 2rem;
+  color: #666;
+}
+
+
+
+
+/* step */
+.step {
+  position: relative;
+  z-index: 40;
+  padding-top: 120px;
+  height: 900px;
+  background: #fff;
+}
+
+.step .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step h2 {
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+.step h4 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.step p {
+  margin-top: 10px;
+  font-size: 2rem;
+  color: #666;
+}
+
+.step .img_box {
+  position: relative;
+}
+
+.step .img_box img {
+  max-width: 100%;
+}
+
+.step .img_box img:nth-child(2) {
+  margin-top: 100px;
+}
+
+.step .img_box img:nth-child(3) {
+  position: absolute;
+  right: -4.3%;
+  bottom: -370px;
+}
+
+
+
+
+/* review */
+.review {
+  position: relative;
+  z-index: 50;
+  padding: 120px 0;
+  height: 900px;
+  background: #fafafa;
+  text-align: right;
+}
+
+.review .inner {
+  position: relative;
+  margin: 0;
+  padding: 0 17.29%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 27%;
+  background: url(../img/review_pf.png) no-repeat 18.29% / 35%;
+}
+
+.review .img_box img {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+}
+
+
+.review h2 {
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+.review h4 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.review p {
+  margin-top: 10px;
+  font-size: 2rem;
+  color: #666;
+}
+
+
+
+
+
+/* footer */
+#footer {
+  padding: 120px 0;
+  background: var(--main-color);
+  text-align: center;
+}
+
+#footer p {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+#footer span {
+  display: block;
+  margin: 20px 0 40px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+#footer .btn_box {
+  margin-bottom: 0;
+  justify-content: center;
+}
+
+#footer .apple {
+  display: block;
+  width: 170px;
+  height: 50px;
+  background: url(../img/apple.png) no-repeat 24px center;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  transition: all 0.5s;
+}
+
+#footer .apple a {
+  padding-left: 40px;
+  font-size: 1.6rem;
+  font-family: var(--main-font);
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+#footer .apple:hover {
+  background: #fff url(../img/apple_b.png) no-repeat 24px center;
+  border: 1px solid #fff;
+}
+
+#footer .apple:hover a {
+  color: var(--main-color);
+}
+
+
+#footer .google {
+  display: block;
+  width: 170px;
+  height: 50px;
+  background: url(../img/google.png) no-repeat 24px center / 15%;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  transition: all 0.5s;
+}
+
+#footer .google a {
+  padding-left: 40px;
+  font-size: 1.6rem;
+  font-family: var(--main-font);
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+#footer .google:hover {
+  background: #fff url(../img/google_b.png) no-repeat 24px center / 15%;
+  border: 1px solid #fff;
+}
+
+#footer .google:hover a {
+  color: var(--main-color);
+}
+
+#footer .f_logo {
+  margin: 100px 0 auto;
+}
+
+#footer .copy {
+  padding: 0;
+  margin-top: 30px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}

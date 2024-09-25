@@ -1,0 +1,997 @@
+@charset "utf-8";
+
+@media (max-width:1700px) {
+
+  /* inner */
+  .inner {
+    margin: auto 12.29%;
+  }
+
+  .flight .txt_box {
+    right: 12.29%;
+  }
+
+  /* review */
+  .review .inner {
+    padding: 0 12.29%;
+    gap: 20%;
+  }
+}
+
+
+@media (max-width:1500px) {
+
+  /* inner */
+  .inner {
+    margin: auto 10.29%;
+  }
+
+
+  /* main_visual */
+  .main_visual h2 {
+    font-size: 5rem;
+  }
+
+
+
+
+
+  /* one */
+  .one {
+    height: 850px;
+  }
+
+  .one h3 {
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+  }
+
+  .one h2 {
+    font-size: 5rem;
+  }
+
+
+
+
+
+  /* bookmark */
+  .bookmark {
+    height: 850px;
+  }
+
+  .bookmark h2 {
+    font-size: 5rem;
+  }
+
+  .bookmark h4 {
+    font-size: 2.4rem;
+  }
+
+
+
+
+
+  /* flight */
+  .flight {
+    height: 780px;
+  }
+
+  .flight h2 {
+    font-size: 5rem;
+  }
+
+  .flight h4 {
+    font-size: 2.4rem;
+  }
+
+  .flight .txt_box {
+    right: 10.29%;
+  }
+
+
+
+
+
+  /* step */
+  .step {
+    height: 850px;
+  }
+
+  .step h2 {
+    font-size: 5rem;
+  }
+
+  .step h4 {
+    font-size: 2.4rem;
+  }
+
+
+
+
+
+  /* review */
+  .review {
+    height: 850px;
+  }
+
+  .review .inner {
+    gap: 20%;
+  }
+
+  .review h2 {
+    font-size: 5rem;
+  }
+
+  .review h4 {
+    font-size: 2.4rem;
+  }
+
+  .review .inner {
+    padding: 0 10.29%;
+  }
+}
+
+
+@media (max-width:1300px) {
+  .main_visual h1 {
+    margin: 0 0 60px;
+  }
+
+  .main_visual .img_box img {
+    width: 300px;
+  }
+
+  .one {
+    height: 780px;
+  }
+
+  .one .img_box img {
+    width: 300px;
+  }
+
+  .bookmark {
+    height: 780px;
+  }
+
+  .bookmark img {
+    width: 300px;
+  }
+
+  .flight img {
+    width: 300px;
+  }
+
+  .step {
+    height: 780px;
+  }
+
+  .step img {
+    width: 300px;
+  }
+
+  .step .img_box img:nth-child(3) {
+    right: -1.3%;
+  }
+
+  .review {
+    height: 780px;
+  }
+
+  .review .img_box img {
+    width: 300px;
+  }
+}
+
+
+@media (max-width:1200px) {
+
+  /* inner */
+  .inner {
+    margin: auto 7.29%;
+  }
+
+  .main_visual .img_box img {
+    width: 280px;
+  }
+
+  .one {
+    height: 750px;
+  }
+
+  .one .img_box img {
+    width: 280px;
+  }
+
+  .bookmark {
+    height: 700px;
+  }
+
+  .bookmark img {
+    width: 280px;
+  }
+
+  .flight {
+    height: 700px;
+  }
+
+
+  .flight img {
+    width: 280px;
+  }
+
+  .flight .txt_box {
+    right: 7.29%;
+  }
+
+
+
+  .step {
+    height: 750px;
+  }
+
+  .step img {
+    width: 280px;
+  }
+
+  .step .img_box img:nth-child(3) {
+    right: -1.3%;
+  }
+
+  .review {
+    height: 700px;
+  }
+
+  .review .inner {
+    padding: 0 7.29%;
+    gap: 16%;
+  }
+
+  .review .img_box img {
+    width: 280px;
+  }
+
+}
+
+
+@media (max-width:1024px) {
+
+  /* inner */
+  /*   .inner {
+    margin: auto 10.41%;
+  } */
+
+
+  /* main_visual */
+  .main_visual {
+    padding-top: 100px;
+  }
+
+  .main_visual h1 img {
+    width: 100px;
+  }
+
+
+  /* one */
+  .one {
+    padding-top: 100px;
+  }
+
+  .one .txt_box {
+    margin-bottom: 50px;
+  }
+
+  .one .img_box {
+    position: static;
+  }
+
+  .one .img_box img {
+    width: 230px;
+  }
+
+
+  /* bookmark */
+  .bookmark {
+    padding-top: 100px;
+    height: 600px;
+  }
+
+
+  .bookmark .txt_box {
+    margin-bottom: 50px;
+  }
+
+  .bookmark .img_box img {
+    width: 250px;
+  }
+
+  .bookmark .img_box img:nth-child(2) {
+    bottom: -200px;
+  }
+
+
+  /* flight */
+  .flight {
+    padding-top: 100px;
+    height: 650px;
+  }
+
+
+  .flight .img_box {
+    display: flex;
+    width: 60%;
+  }
+
+  .flight .flight_col:nth-child(2) {
+    margin-top: 150px;
+  }
+
+
+  /* step */
+  .step {
+    padding-top: 100px;
+    height: 650px;
+  }
+
+
+  .step .img_box img {
+    width: 250px;
+  }
+
+  .step .img_box img:nth-child(2) {
+    margin-top: 70px;
+  }
+
+  .step .img_box img:nth-child(3) {
+    right: -1.3%;
+    bottom: -290px;
+  }
+
+  .step .txt_box {
+    margin-bottom: 50px;
+  }
+
+
+  /* review */
+  .review {
+    padding-top: 100px;
+    height: 650px;
+  }
+
+
+  .review .inner {
+    background: url(../img/review_pf.png) no-repeat 10% 70% / 43%;
+  }
+
+  .review .img_box img {
+    width: 250px;
+  }
+
+  #footer p {
+    font-size: 4rem;
+  }
+
+
+  #footer .f_logo img {
+    width: 100px;
+  }
+}
+
+
+@media (max-width:960px) {
+  .inner {
+    margin: auto 5.29%;
+  }
+
+  .main_visual h2 {
+    font-size: 4rem;
+  }
+
+  .main_visual p {
+    font-size: 2rem;
+  }
+
+  .main_visual .txt_box {
+    margin-right: 5vw;
+  }
+
+  .one h3 {
+    font-size: 2.4rem;
+  }
+
+  .one .img_box {
+    gap: 10px;
+  }
+
+  .bookmark h2 {
+    font-size: 4.5rem;
+  }
+
+  .bookmark p {
+    font-size: 2rem;
+  }
+
+  .bookmark .img_box img {
+    width: 220px;
+  }
+
+  .flight .img_box {
+    width: 60%;
+  }
+
+  .flight h2 {
+    font-size: 4.5rem;
+  }
+
+  .flight p {
+    font-size: 2rem;
+  }
+
+  .flight .txt_box {
+    right: 5.29%;
+  }
+
+  .step h2 {
+    font-size: 4.5rem;
+  }
+
+  .step p {
+    font-size: 2rem;
+  }
+
+  .step .img_box img {
+    width: 220px;
+  }
+
+  .review .inner {
+    padding: 0 7.29%;
+    gap: 16%;
+  }
+
+  .review h2 {
+    font-size: 4.5rem;
+  }
+
+  .review p {
+    font-size: 2rem;
+  }
+
+  .review .img_box img {
+    width: 220px;
+  }
+}
+
+
+@media (max-width:830px) {
+  .main_visual .img_box {
+    position: relative;
+    left: 2%;
+  }
+
+  .main_visual .img_box img {
+    width: 250px;
+  }
+
+  .one .img_box img {
+    width: 200px;
+  }
+
+  .bookmark {
+    height: 560px;
+  }
+
+  .bookmark .img_box img {
+    width: 200px;
+  }
+
+  .flight {
+    height: 550px;
+  }
+
+  .flight .img_box {
+    width: 50%;
+  }
+
+  .step {
+    height: 550px;
+  }
+
+  .step .img_box img {
+    width: 190px;
+  }
+
+  .step .img_box img:nth-child(3) {
+    bottom: -260px;
+  }
+
+  .review .img_box img {
+    width: 200px;
+  }
+}
+
+
+
+@media (max-width:768px) {
+  .main_visual {
+    padding: 70px 12.53% 0;
+    flex-wrap: wrap;
+    height: 700px;
+    text-align: center;
+  }
+
+  .main_visual h1 {
+    margin: 0 0 16px;
+  }
+
+  .main_visual p {
+    margin: 12px 0 36px;
+  }
+
+  .main_visual .txt_box {
+    margin: 0 5vw;
+  }
+
+  .btn_box {
+    margin-bottom: 30px;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .main_visual .apple {
+    width: 130px;
+    height: 50px;
+    background: url(../img/apple.png) no-repeat 14px center / 14%;
+    pointer-events: none;
+  }
+
+  .main_visual .apple a {
+    padding-left: 24px;
+    font-size: 1.4rem;
+    pointer-events: none;
+  }
+
+  .main_visual .google {
+    width: 130px;
+    height: 50px;
+    background: url(../img/google.png) no-repeat 14px center / 14%;
+    pointer-events: none;
+  }
+
+  .main_visual .google a {
+    padding-left: 24px;
+    font-size: 1.4rem;
+    pointer-events: none;
+  }
+
+
+  .one {
+    text-align: center;
+  }
+
+  .one .img_box {
+    gap: 0;
+  }
+
+
+  .bookmark {
+    height: 750px;
+    text-align: center;
+  }
+
+  .bookmark .inner {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .bookmark .img_box {
+    position: relative;
+    right: 2%;
+  }
+
+  .bookmark .img_box img {
+    width: 220px;
+  }
+
+  .flight {
+    height: 750px;
+    text-align: center;
+  }
+
+  .flight .inner {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .flight .img_box {
+    position: relative;
+    left: 2%;
+    display: flex;
+    width: 65%;
+    order: 2;
+  }
+
+  .flight .flight_col:nth-child(2) {
+    margin-top: 100px;
+  }
+
+  .flight .txt_box {
+    position: static;
+    margin-bottom: 50px;
+    transform: none;
+    order: 1;
+  }
+
+  .step {
+    height: 750px;
+    text-align: center;
+  }
+
+
+  .step .inner {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .step .img_box img {
+    width: 220px;
+  }
+
+  .review {
+    height: 750px;
+    text-align: center;
+  }
+
+  .review .inner {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18%;
+    background: url(../img/review_pf.png) no-repeat 40% 70% / 56%;
+  }
+
+  .review .img_box {
+    position: relative;
+    left: 2%;
+    order: 2;
+  }
+
+  .review .img_box img {
+    width: 220px;
+  }
+
+  .review .txt_box {
+    margin-bottom: 50px;
+    order: 1;
+  }
+
+  #footer p {
+    font-size: 3.5rem;
+  }
+
+  #footer span {
+    display: block;
+    margin: 20px 0 40px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  #footer .apple {
+    width: 130px;
+    height: 50px;
+    background: url(../img/apple.png) no-repeat 14px center / 14%;
+    pointer-events: none;
+  }
+
+  #footer .apple a {
+    padding-left: 24px;
+    font-size: 1.4rem;
+    pointer-events: none;
+  }
+
+  #footer .google {
+    width: 130px;
+    height: 50px;
+    background: url(../img/google.png) no-repeat 14px center / 14%;
+    pointer-events: none;
+  }
+
+  #footer .google a {
+    padding-left: 24px;
+    font-size: 1.4rem;
+    pointer-events: none;
+  }
+
+  #footer .f_logo {
+    margin: 70px 0 auto;
+  }
+}
+
+
+@media (max-width:680px) {
+  .one .img_box {
+    overflow-x: auto;
+    justify-content: flex-start;
+  }
+
+  .flight .img_box {
+    width: 70%;
+  }
+}
+
+
+@media (max-width:550px) {
+  .one {
+    padding-top: 80px;
+    height: 650px;
+  }
+
+  .one h2 {
+    font-size: 4rem;
+  }
+
+  .one h3 {
+    font-size: 2rem;
+  }
+
+  .one .txt_box {
+    margin-bottom: 30px;
+  }
+
+  .one .img_box img {
+    width: 180px;
+  }
+
+  .bookmark {
+    padding-top: 80px;
+    height: 650px;
+  }
+
+  .bookmark h4 {
+    font-size: 2rem;
+  }
+
+  .bookmark h2 {
+    font-size: 4rem;
+  }
+
+  .bookmark p {
+    font-size: 1.6rem;
+  }
+
+  .bookmark .txt_box {
+    margin-bottom: 30px;
+  }
+
+  .bookmark .img_box img {
+    width: 180px;
+  }
+
+  .bookmark .img_box img:nth-child(2) {
+    bottom: -150px;
+  }
+
+  .flight {
+    padding-top: 80px;
+    height: 620px;
+  }
+
+  .flight .txt_box {
+    margin-bottom: 30px;
+  }
+
+  .flight h4 {
+    font-size: 2rem;
+  }
+
+  .flight h2 {
+    font-size: 4rem;
+  }
+
+  .flight p {
+    font-size: 1.6rem;
+  }
+
+  .step {
+    padding-top: 80px;
+    height: 650px;
+  }
+
+  .step .txt_box {
+    margin-bottom: 30px;
+  }
+
+  .step h4 {
+    font-size: 2rem;
+  }
+
+  .step h2 {
+    font-size: 4rem;
+  }
+
+  .step p {
+    font-size: 1.6rem;
+  }
+
+  .step .img_box img {
+    width: 180px;
+  }
+
+  .step .img_box img:nth-child(2) {
+    margin-top: 50px;
+  }
+
+  .step .img_box img:nth-child(3) {
+    bottom: -200px;
+  }
+
+  .review {
+    padding-top: 80px;
+    height: 650px;
+  }
+
+  .review .txt_box {
+    margin-bottom: 30px;
+  }
+
+  .review h4 {
+    font-size: 2rem;
+  }
+
+  .review h2 {
+    font-size: 4rem;
+  }
+
+  .review p {
+    font-size: 1.6rem;
+  }
+
+  .review .img_box img {
+    width: 180px;
+  }
+
+  #footer {
+    padding: 80px 20px;
+  }
+
+  #footer .f_logo {
+    margin: 60px 0 auto;
+  }
+}
+
+
+@media (max-width:480px) {
+
+  /* mv */
+  .main_visual {
+    height: 600px;
+  }
+
+  .main_visual h2 {
+    font-size: 3.5rem;
+  }
+
+  .main_visual p {
+    margin: 8px 0 24px;
+    font-size: 1.6rem;
+  }
+
+
+  /* one */
+  .one {
+    height: 600px;
+  }
+
+  .one h2 {
+    font-size: 3.5rem;
+  }
+
+  .one h3 {
+    font-size: 1.6rem;
+  }
+
+
+  /* bookmark */
+  .bookmark {
+    height: 600px;
+  }
+
+  .bookmark h2 {
+    font-size: 3.5rem;
+  }
+
+  .bookmark h4 {
+    font-size: 1.6rem;
+  }
+
+  .bookmark p {
+    font-size: 1.4rem;
+  }
+
+
+  /* flight */
+  .flight {
+    height: 600px;
+  }
+
+  .flight h2 {
+    font-size: 3.5rem;
+  }
+
+  .flight h4 {
+    font-size: 1.6rem;
+  }
+
+  .flight p {
+    font-size: 1.4rem;
+  }
+
+
+  /* step */
+  .step {
+    height: 600px;
+  }
+
+  .step h2 {
+    font-size: 3.5rem;
+  }
+
+  .step h4 {
+    font-size: 1.6rem;
+  }
+
+  .step p {
+    font-size: 1.4rem;
+  }
+
+
+  /* review */
+  .review {
+    height: 600px;
+  }
+
+  .review h2 {
+    font-size: 3.5rem;
+  }
+
+  .review h4 {
+    font-size: 1.6rem;
+  }
+
+  .review p {
+    font-size: 1.4rem;
+  }
+
+  #footer p {
+    word-break: keep-all;
+  }
+
+  #footer .copy {
+    word-break: keep-all;
+  }
+}
+
+
+@media (max-width:420px) {
+  .one .img_box img {
+    width: 160px;
+  }
+
+  .bookmark .img_box img {
+    width: 160px;
+  }
+
+  .flight .img_box {
+    width: 80%;
+  }
+
+  .step .img_box img {
+    width: 160px;
+  }
+
+  .review .img_box img {
+    width: 160px;
+  }
+
+  .review .inner {
+    background: url(../img/review_pf.png) no-repeat 40% 75% / 66%;
+  }
+}
